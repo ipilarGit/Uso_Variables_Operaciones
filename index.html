@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Uso de variables y operadores aritmeticos</title>
+
+     <!--Mi estilo-->
+     <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+     <h1>Desafío - Uso de variables y operadores aritméticos</h1>
+
+     <h3>Ejercicio N° 1</h3>
+     <p><span>1. </span> Realizar el diagrama de flujo para las siguientes operaciones matemáticas: Suma, Resta,
+          División,
+          Multiplicación
+          y el módulo de un número, partiendo de dos números ingresados por el usuario.</p>
+     <button onclick="verImagenFlujo();">Ver Flujo</button>
+     <img id="diagrama" src="assets/img/diagrama_operaciones.jpg" alt="">
+
+
+     <h3>Ejercicio N° 2</h3>
+     <p><span>2. </span> Realizar operaciones con dos números. Pedir al usuario que <span>ingrese dos números diferentes
+               y mayores a cero</span>.
+          Para ambos números, calcular lo siguiente:
+     <ul>
+          <li>Suma</li>
+          <li>Resta</li>
+          <li>División</li>
+          <li>Multiplicación</li>
+          <li>Resto</li>
+     </ul>
+     </p>
+     <button onclick="calcularOperaciones();">Ver Resultado</button>
+     <p id="parrafo2">
+
+     </p>
+
+     <h3>Ejercicio N° 3</h3>
+     <p><span>3. </span>Crear un programa que pida al usuario <span>ingresar la temperatura en grados Celsius y que la
+               transforme a grados Kelvin y Fahrenheit</span>. Se debe considerar la siguiente información respecto a la
+          equivalencia de las escalas de temperatura:
+     <ul>
+          <li>0 Grados Celsius corresponden a 273,15 Kelvin. La fórmula para convertirlos es:
+               0° C + 273.15 = 273.15 K</li>
+          <li>0 Grados Celsius corresponden a 32 Fahrenheit. La fórmula para convertirlos es: (0°C × 9 / 5) + 32 = 32° F
+          </li>
+     </ul>
+     </p>
+     <button onclick="calcularGrados();">Ver Resultado</button>
+     <p id="parrafo3">
+
+     </p>
+
+     <h3>Ejercicio N° 4</h3>
+     <p><span>4. </span> Crear un programa que pida al usuario una <span>cantidad de días y que muestre su equivalente
+               en Años, Meses, Semanas y Días.</span> Por ejemplo, si el usuario ingresa 373, el resultado debe ser 1
+          año, 1 semana y 1 día.
+          Se debe considerar lo siguiente:
+     <ul>
+          <li>1 año tiene 365 días.</li>
+          <li>1 semana tiene 7 días.</li>
+     </ul>
+     Se recomienda usar la función <span>Math.floor</span> para obtener la parte entera de un número decimal.
+     </p>
+     <button onclick="convertirDias();">Ver Resultado</button>
+     <p id="parrafo4">
+
+     </p>
+     <h3>Ejercicio N° 4</h3>
+     <p><span>4. </span>Crear un programa que solicite al usuario<span> 5 números y realice los cálculos que se
+               piden a continuación</span>:
+     <ul>
+          <li>La suma de todos los números.</li>
+          <li>El promedio de los 5 números ingresados.</li>
+     </ul>
+     <button onclick="obtenerSumaPromedio();">Ver Resultado</button>
+     <p id="parrafo5">
+
+     </p>
+
+
+     <script src="assets/js/index.js"></script>
+
+</body>
+
+</html>

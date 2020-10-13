@@ -1,0 +1,21 @@
+body {
+     background-color: #F5DEB3;
+     margin: 20px;
+}
+
+h1 {
+     text-align: center;
+     color: #800000;
+}
+
+h3 {
+     color: #800000;
+}
+
+span {
+     font-weight: bold;
+}
+
+img {
+     display: none;
+}
